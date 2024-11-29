@@ -1,0 +1,9 @@
+resources:
+  - ../../base
+
+patches:
+  - target:
+      kind: Ingress
+      name: example-app-ingress
+    path: ingress-patch.yaml
+
